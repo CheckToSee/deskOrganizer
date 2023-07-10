@@ -25,15 +25,6 @@ def create_dir(path):
     except:
         print("Folder already created")
 
-def reverse_string(word):
-    word_length = len(word)
-    ans = ""
-    counter = 0
-    for i in range(word_length):
-        ans+=word[word_length - counter - 1]
-        counter+=1
-    return ans
-
 def gather_files(source):
     all_files = []
 
